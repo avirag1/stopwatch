@@ -103,11 +103,8 @@ class Window(QMainWindow):
 		self.count = 0
 		# setting text to label
 		self.label.setText(str(self.count))
-
-
 # create pyqt5 app
 App = QApplication(sys.argv)
-
 # create the instance of our Window
 window = Window()
 
